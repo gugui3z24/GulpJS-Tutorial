@@ -2,7 +2,7 @@
 
 This is an application demonstrating the basic setup and methods used with GulpJS.
 
-A YouTube video illustrating how to create this application from scratch can be found [here](https://www.youtube.com/playlist?list=PL3vQyqzqjZ637sWpKvniMCxdqZhnMJC1d).
+A YouTube video illustrating how to create this application from scratch can be found [here](https://youtu.be/FBODMLdENxo).
 
 ## Requirements
 
@@ -20,12 +20,18 @@ This application was created to demonstrate development workflow standardization
 $ npm install
 ```
 
-```
 - Installation is complete. Inside the root directory, run:
-```
+
 
 ```
 $ npm start
+```
+
+## Known Errors
+
+- If following error is displayed: "Node Sass could not find a binding for your current environment", you will need to run:
+```
+$ npm install node-sass
 ```
 
 ## Contributors
