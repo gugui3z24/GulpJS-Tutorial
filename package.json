@@ -1,0 +1,29 @@
+{
+  "name": "gulp-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp build & node index.js"
+  },
+  "keywords": [],
+  "author": "David Acosta",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-minifier2": "^1.1.8",
+    "gulp-live-server": "0.0.30",
+    "gulp-open": "^2.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "^1.0.8",
+    "os": "^0.1.1",
+    "pump": "^1.0.2"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
